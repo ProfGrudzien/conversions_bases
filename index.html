@@ -9,7 +9,7 @@
             font-size: 24pt;}
         input {
             font-size: 24pt;}
-        input[type=number] { 
+        input[type=number], input[type=text] { 
             -moz-appearance: textfield;
             appearance: textfield;
             height: 50px;
@@ -204,7 +204,7 @@
                 form.sujet = `Convertir en base 16 l'entier naturel (${form.base10})<sub>10</sub> écrit en base 10.`
                 form.innerHTML = `
                     <label name="question">${form.sujet}</label>
-                    <input type="number" name="rep"></input>
+                    <input type="text" name="rep"></input>
                     <input type="submit" value="Vérifier"/>
                     <label></label>
                     <div class="correction" name="correction"><span class="aDroite"><input type="button" value="Correction"/></span></div>
