@@ -439,6 +439,7 @@
                     const listeBase2 = Array.from(form.tmpbase2).map(e => e=='0'?'1':'0')
                     i = listeBase2.length - 1
                     while (listeBase2[i] == "1") {
+                        listeBase2[i] = "0"
                         i = i - 1
                     }
                     listeBase2[i] = "1"
@@ -506,6 +507,7 @@
                     const listeBase2 = Array.from(form.tmpbase2).map(e => e=='0'?'1':'0')
                     i = listeBase2.length - 1
                     while (listeBase2[i] == "1") {
+                        listeBase2[i] = "0"
                         i = i - 1
                     }
                     listeBase2[i] = "1"
